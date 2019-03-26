@@ -3,7 +3,7 @@ public class Eevee {
     {
         String nombre = "Eevee";
         String tipo = "Fuego";
-        String piedra = "Hada";
+        String piedra = "Alva";
 
         if (piedra == "Fuego")
         {
