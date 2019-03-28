@@ -1,27 +1,29 @@
 package PracticasMetodos;
 
 public class Nombres {
-    public static void main (String args []){
+    public static void main(String args[]) {
 
-obtenerNombre("Edwin", "Mildred");
+//obtenerNombre("Edwin", "Mildred");
 
-String mayorCaracter = obtenerNombre("Edwiiiiiin", "azucenaaaaaaaaaaaaa");
+        String mayorCaracter = obtenerNombre("Edwin", "azu"); //Edwin
 
-        System.out.println( mayorCaracter + " tiene mayor numero de  letras" );
+
+        System.out.println(mayorCaracter + " tiene mayor numero de  letras " + mayorCaracter.length());
     }
-    public static String obtenerNombre ( String nom1, String nom2 ){
 
-        if (nom1.length () >  nom2.length ()) {
+    public static String obtenerNombre(String nom1, String nom2) {
 
-            if (nom1.length() < nom2.length()) {
+        if (nom1.length() > nom2.length()) {
 
-            }
             return nom1;
-        }
-        return nom2;
+        } else {
+            return nom2;
         }
 
+
+
     }
+}
 
 
 
